@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnKdev.SessionPass.Tests", "EnKdev.SessionPass.Tests\EnKdev.SessionPass.Tests.csproj", "{D23FF561-1911-4F3E-9F15-EB0064CBE798}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnKdev.SessionPass.Net5", "EnKdev.SessionPass.Net5\EnKdev.SessionPass.Net5.csproj", "{F76D82AC-D5D3-4D3F-856B-760BFEC6EFAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnKdev.SessionPass", "EnKdev.SessionPass\EnKdev.SessionPass.csproj", "{FD498EFF-0F25-4253-8CC3-26365718DE24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnKdev.SessionPass.Net6", "EnKdev.SessionPass.Net6\EnKdev.SessionPass.Net6.csproj", "{51587D11-0737-4C09-9F57-D9D4D55DBF43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D23FF561-1911-4F3E-9F15-EB0064CBE798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23FF561-1911-4F3E-9F15-EB0064CBE798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23FF561-1911-4F3E-9F15-EB0064CBE798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23FF561-1911-4F3E-9F15-EB0064CBE798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F76D82AC-D5D3-4D3F-856B-760BFEC6EFAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F76D82AC-D5D3-4D3F-856B-760BFEC6EFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F76D82AC-D5D3-4D3F-856B-760BFEC6EFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F76D82AC-D5D3-4D3F-856B-760BFEC6EFAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD498EFF-0F25-4253-8CC3-26365718DE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD498EFF-0F25-4253-8CC3-26365718DE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD498EFF-0F25-4253-8CC3-26365718DE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD498EFF-0F25-4253-8CC3-26365718DE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51587D11-0737-4C09-9F57-D9D4D55DBF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51587D11-0737-4C09-9F57-D9D4D55DBF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51587D11-0737-4C09-9F57-D9D4D55DBF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51587D11-0737-4C09-9F57-D9D4D55DBF43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
