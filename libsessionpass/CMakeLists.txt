@@ -11,4 +11,11 @@ add_library(libsessionpass STATIC
         OtsvCode.cpp
         OtsvCode.h)
 
+add_executable(libsessionpass_test
+        HttpHelper.cpp
+        OtsvCode.cpp
+        test/test.cpp
+)
+
 target_link_libraries(libsessionpass CURL::libcurl)
+target_link_libraries(libsessionpass_test CURL::libcurl)
