@@ -7,6 +7,7 @@ Available Versions:
 -   EnKdev.SessionPass.Net5 (.NET 5.0)
 -   EnKdev.SessionPass.Net6 (.NET 6.0)
 -   EnKdev.SessionPass.Kotlin (JVM)
+-   libsessionpass (C++)
 
 ---
 Contents of the Repository:
@@ -19,3 +20,6 @@ Contents of the Repository:
 
 ### JVM
 -   EnKdev.SessionPass.Kotlin -> Kotlin (JVM) Project for EnKdev.SessionPass
+
+### C++
+-   libsessionpass -> C++ Project for EnKdev.SessionPass
