@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{04EA091A-1BAC-4390-8652-C41CF3AB6BD3}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="EnKdev.SessionPass.Delphi.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EnKdev.SessionPass.Delphi.Tests.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="EnKdev_SessionPass_Delphi">
+        <MSBuild Projects="EnKdev.SessionPass.Delphi.dproj"/>
+    </Target>
+    <Target Name="EnKdev_SessionPass_Delphi:Clean">
+        <MSBuild Projects="EnKdev.SessionPass.Delphi.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EnKdev_SessionPass_Delphi:Make">
+        <MSBuild Projects="EnKdev.SessionPass.Delphi.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EnKdev_SessionPass_Delphi_Tests">
+        <MSBuild Projects="EnKdev.SessionPass.Delphi.Tests.dproj"/>
+    </Target>
+    <Target Name="EnKdev_SessionPass_Delphi_Tests:Clean">
+        <MSBuild Projects="EnKdev.SessionPass.Delphi.Tests.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EnKdev_SessionPass_Delphi_Tests:Make">
+        <MSBuild Projects="EnKdev.SessionPass.Delphi.Tests.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="EnKdev_SessionPass_Delphi;EnKdev_SessionPass_Delphi_Tests"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="EnKdev_SessionPass_Delphi:Clean;EnKdev_SessionPass_Delphi_Tests:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="EnKdev_SessionPass_Delphi:Make;EnKdev_SessionPass_Delphi_Tests:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
